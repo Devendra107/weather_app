@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 if (gameState[winningStates[i][0]] == gameState[winningStates[i][1]] && gameState[winningStates[i][1]] == gameState[winningStates[i][2]] && gameState[winningStates[i][0]] > -1){
                     Toast.makeText(this,"Winner is "+ (player==0?1:0),Toast.LENGTH_SHORT).show();
                     isWinner = true;
+                    //this is a Mad project 
             }
         }
     }
